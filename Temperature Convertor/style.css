@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height:500px;
+    width: 90%;
+    background-image: url('pexels-roman-odintsov-4871011.jpg');
+    justify-content: center;
+    align-items: center;
+    padding-top: 190px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+}
+
+.container{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    background-color: lightblue;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heading{
+    display: flex;
+    height: 100%;
+    width:50%;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    display: flex;
+    font-size: 60px;
+    height: 10%;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+}
+
+.val-input{
+    display: block;
+    width: 80%;
+    height: 35%;
+    background-color: cornflowerblue;
+}
+
+label{
+    font-size: 20px;
+    font-weight: 500;
+}
+input{
+    height: 30px;
+}
+
+input::placeholder{
+    font-size: 15px;
+}
+
+button{
+    height: 30px;
+    color: white;
+    background-color: cadetblue;
+    font-size: 15px;
+}
+
+#reset{
+    height: 30px;
+    color: white;
+    background-color: cadetblue;
+    font-size: 15px;
+}
